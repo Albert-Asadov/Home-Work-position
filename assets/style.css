@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 250vh;
+    background-color: black;
+}
+section{
+    background-image: url(./shutterstock-1665254809.webp);
+    background-position: center;
+    background-size: cover;
+}
+section div{
+    height: 120px;
+}
+section div h1{
+    margin-top: 3px;
+    opacity: 0.8;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    border: 2px solid ;
+    border-top-color: yellow ;
+    border-bottom-color: yellowgreen ;
+    border-left-color: green ;
+    border-right-color: green ;
+}
+section div ul li{
+   list-style-type: none;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px;
+   color: rgb(0, 0, 0);
+}
+section div ul li i{
+    margin-right: 2px;
+}
+section {
+    position: relative;
+    margin: 5px;
+}
+section div ul{
+    
+    padding: 8px;
+    margin-left: 13px;
+}
+section div h1:hover{
+    font-size: 25px;
+    background-color: gray;
+}
+section div ul li i:hover{
+   color: white;
+}
+section .first{
+    transform: translateX(-150%);
+    animation: ani 1s forwards;
+
+}
+section .second {
+     transform: translateX(-150%);
+    animation: ani 1.5s forwards;
+ 
+}
+section .third{
+    transform: translateX(-150%);
+    animation: ani 2s forwards;
+   
+}
+section .for {
+    transform: translateX(-150%);
+    animation: ani 2.5s forwards;
+
+}
+section .five{
+    transform: translateX(-150%);
+    animation: ani 3s forwards;
+}
+section .first ul .america::after{
+    content:' Population: 331.9 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .first ul .austria::after{
+    content:' Population: 8.956 million';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .first ul .azerbaijan::after{
+    content:' Population: 10 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .first ul .australia::after{
+    content:' Population: 25.74 million';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+section .second ul .belgium::after{
+    content:' Population: 11.59 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .second ul .brazil::after{
+    content:' Population: 214 million';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .second ul .bangladesh::after{
+    content:' Population: 166.3 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .second ul .bolivia::after{
+    content:' Population: 11.83 million';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ } 
+ section .third ul .canada::after{
+    content:' Population: 38.25 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .third ul .china::after{
+    content:' Population: 1.412 billion';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .third ul .colombia::after{
+    content:' Population: 51.27 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .third ul .cuba::after{
+    content:' Population: 11.32 million';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .for ul .denmark::after{
+    content:' Population: 5.857 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .for ul .dominican::after{
+    content:' Population: 10.95 million';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .for ul .democratic::after{
+    content:' Population: 92.38 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .for ul .djibouti::after{
+    content:' Population: 1.002 million';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .five ul .estonia::after{
+    content:' Population: 1.329 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .five ul .egypt::after{
+    content:' Population: 104.3  million';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .five ul .ecuador::after{
+    content:' Population: 17.89 million';
+    display: inline;
+    font-size: 10px;
+    background-color: rgb(149, 167, 248);
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+ section .five ul .el-salvador::after{
+    content:' Population: 6.518 million';
+    display: inline;
+    font-size: 10px;
+    background-color: aqua;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+ }
+@keyframes ani {
+0% {transform: translateX(-150%);}
+100% {transform: translateY(0);}
+}
